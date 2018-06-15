@@ -5,3 +5,14 @@ function theBeatlesPlay(mus, inst){
   }
   return array
 }
+
+function johnLennonFacts(facts){
+  i = 0
+  array = []
+  console.log(facts.length)
+  while (i < facts.length){
+    array.push(`${facts[i]}!!!`)
+    i++
+  }
+  return array
+}
